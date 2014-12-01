@@ -15,3 +15,18 @@
  *= require refinery/theme
  *= require_self
  */
+
+body {
+  background: #DDD;
+  font-family: Verdana;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+#body, #side_body {
+  float: left;
+  width: 45%;
+  background: white;
+  color: #333;
+  padding: 20px;
+}
