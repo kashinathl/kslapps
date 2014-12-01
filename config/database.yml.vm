@@ -5,9 +5,8 @@ login: &common
   password: cybage@123
   host: 172.27.139.241
   port: 5432
-  database: refinery_database_development
+  database: rails-blog
   min_messages: warning # silence the NOTICE: messages from postgres
-  pool: 5
 
 
 development:
